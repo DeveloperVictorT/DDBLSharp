@@ -7,7 +7,7 @@ namespace DDBLSharp
     public class DDBL
     {
         /// <summary>  
-        ///  API Token
+        ///  Divine API Token
         /// </summary>  
         public string Token { get; set; }
         /// <summary>  
