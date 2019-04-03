@@ -1,6 +1,9 @@
 # DDBLSharp
 Divine Discord Bot List API in C#
 
+This is not the official wrapper for DDBLSharp
+Find the release version at https://github.com/DivineDiscordBotList/DDBLSharp
+
 ```
 Authorization: "yes"
 Ratelimit: 1 minute
