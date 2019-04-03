@@ -6,14 +6,20 @@ namespace DDBLSharp
 {
     public class DDBL
     {
+        /// <summary>  
+        ///  API Token
+        /// </summary>  
         public string Token { get; set; }
+        /// <summary>  
+        ///  Discord Bot Id
+        /// </summary>  
         public long BotId { get; set; }
         public void PostStats(int ServerCount)
         {
             WebClient client = new WebClient();
             client.Headers.Add("Authorization", Token);
             client.Headers.Add("content-type", "application/json");
-
+            
             var data = JsonConvert.SerializeObject(new { server_count = ServerCount.ToString() });
 
             try
